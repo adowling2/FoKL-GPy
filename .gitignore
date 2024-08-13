@@ -1,1 +1,8 @@
 src/FoKL/__pycache__/
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/tclab.iml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml

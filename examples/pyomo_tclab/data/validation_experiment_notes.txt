@@ -1,0 +1,41 @@
+# Validation Experiment Notes
+
+## Validation Experiment 1
+* Input data: u_via_GP_of_resid_with_du_penalty.csv
+* Open-loop optimal control signal used Tamb of 26.731 degC
+* Output data: validation_experiment1.csv
+* Experiment Tamb was around 27.666
+* Final temperature was around 38.7 degC, which is an overshoot of 3.7 degC from the target
+
+## Validation Experiment 2
+* This is a replicate of validation experiment 1 to see variability in hardware
+* Input data: u_via_GP_of_resid_with_du_penalty.csv
+* Open-loop optimal control signal used Tamb of 26.731 degC
+* Output data: validation_experiment2.csv
+* Experiment Tamb was around 27.666
+* Final temperature was around 37.6 degC, which is an overshoot of 2.6 degC from the target
+
+## Validation Experiment 3
+* Input data: solution_averageDraws_0o5du1.csv
+
+## Validation Experiment 4
+* Input data: solution_benchmark_0o5du1.csv
+
+## Validation Experiment 5
+* Input data: tclab_final_as_of_20240807__u_benchmark.csv
+* Peak of set point changed from +35 C to +25 C
+* Ran on laptop computer (but using same TCLab hardware)
+
+## Validation Experiment 6
+* Input data: tclab_final_as_of_20240807__u_GP.csv
+* Peak of set point changed from +35 C to +25 C
+* Ran on laptop computer (but using same TCLab hardware)
+
+## Validation Experiment 6b
+* Input data: tclab_final_as_of_20240807__u_GP.csv (updated)
+* Repeated validation experiment 6 but with an updated input file that corrects a Pyomo model bug
+
+## Validation Experiment 7
+* Input data: tclab_final_as_of_20240807__u_GP_trained_w_Tset_results_appended.csv
+* Ran on laptop computer (but using same TCLab hardware)
+* Compare with validation experiments 5 and 6

@@ -10,7 +10,7 @@ The following will be modeled:
 Then, T will be found to maximize abs(G).
 """
 from FoKL import FoKLRoutines
-from FoKL.fokl_to_pyomo import fokl_to_pyomo
+from FoKL.fokl_to_pyomo__old import fokl_to_pyomo
 import os
 dir = os.path.abspath(os.path.dirname(__file__))  # directory of script
 # # -----------------------------------------------------------------------
